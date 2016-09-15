@@ -13,23 +13,8 @@
 		98CD058A1D89A097008AFAE1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98CD05891D89A097008AFAE1 /* ViewController.m */; };
 		98CD058D1D89A097008AFAE1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98CD058B1D89A097008AFAE1 /* Main.storyboard */; };
 		98CD05921D89A097008AFAE1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98CD05901D89A097008AFAE1 /* LaunchScreen.storyboard */; };
-		98CD05A11D89A1CA008AFAE1 /* ActionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98CD05A01D89A1CA008AFAE1 /* ActionViewController.m */; };
-		98CD05A41D89A1CA008AFAE1 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98CD05A21D89A1CA008AFAE1 /* MainInterface.storyboard */; };
-		98CD05A81D89A1CA008AFAE1 /* DisplayIP.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 98CD059D1D89A1CA008AFAE1 /* DisplayIP.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		98CD05B11D89B5EB008AFAE1 /* Youi.png in Resources */ = {isa = PBXBuildFile; fileRef = 98CD05B01D89B5EB008AFAE1 /* Youi.png */; };
-		98CD05B21D89B5EB008AFAE1 /* Youi.png in Resources */ = {isa = PBXBuildFile; fileRef = 98CD05B01D89B5EB008AFAE1 /* Youi.png */; };
-		98CD05B31D89BABB008AFAE1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98CD05891D89A097008AFAE1 /* ViewController.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		98CD05A61D89A1CA008AFAE1 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 98CD05771D89A097008AFAE1 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 98CD059C1D89A1CA008AFAE1;
-			remoteInfo = DisplayIP;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		98CD05AC1D89A1CA008AFAE1 /* Embed App Extensions */ = {
@@ -38,7 +23,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				98CD05A81D89A1CA008AFAE1 /* DisplayIP.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -56,23 +40,11 @@
 		98CD058C1D89A097008AFAE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		98CD05911D89A097008AFAE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		98CD05931D89A097008AFAE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		98CD059D1D89A1CA008AFAE1 /* DisplayIP.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = DisplayIP.appex; sourceTree = BUILT_PRODUCTS_DIR; };
-		98CD059F1D89A1CA008AFAE1 /* ActionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ActionViewController.h; sourceTree = "<group>"; };
-		98CD05A01D89A1CA008AFAE1 /* ActionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ActionViewController.m; sourceTree = "<group>"; };
-		98CD05A31D89A1CA008AFAE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
-		98CD05A51D89A1CA008AFAE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		98CD05B01D89B5EB008AFAE1 /* Youi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Youi.png; path = ../../../../Downloads/Youi.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		98CD057C1D89A097008AFAE1 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		98CD059A1D89A1CA008AFAE1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -86,7 +58,6 @@
 			isa = PBXGroup;
 			children = (
 				98CD05811D89A097008AFAE1 /* getIP */,
-				98CD059E1D89A1CA008AFAE1 /* DisplayIP */,
 				98CD05801D89A097008AFAE1 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -95,7 +66,6 @@
 			isa = PBXGroup;
 			children = (
 				98CD057F1D89A097008AFAE1 /* getIP.app */,
-				98CD059D1D89A1CA008AFAE1 /* DisplayIP.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -125,17 +95,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		98CD059E1D89A1CA008AFAE1 /* DisplayIP */ = {
-			isa = PBXGroup;
-			children = (
-				98CD059F1D89A1CA008AFAE1 /* ActionViewController.h */,
-				98CD05A01D89A1CA008AFAE1 /* ActionViewController.m */,
-				98CD05A21D89A1CA008AFAE1 /* MainInterface.storyboard */,
-				98CD05A51D89A1CA008AFAE1 /* Info.plist */,
-			);
-			path = DisplayIP;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -151,29 +110,11 @@
 			buildRules = (
 			);
 			dependencies = (
-				98CD05A71D89A1CA008AFAE1 /* PBXTargetDependency */,
 			);
 			name = getIP;
 			productName = getIP;
 			productReference = 98CD057F1D89A097008AFAE1 /* getIP.app */;
 			productType = "com.apple.product-type.application";
-		};
-		98CD059C1D89A1CA008AFAE1 /* DisplayIP */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 98CD05A91D89A1CA008AFAE1 /* Build configuration list for PBXNativeTarget "DisplayIP" */;
-			buildPhases = (
-				98CD05991D89A1CA008AFAE1 /* Sources */,
-				98CD059A1D89A1CA008AFAE1 /* Frameworks */,
-				98CD059B1D89A1CA008AFAE1 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = DisplayIP;
-			productName = DisplayIP;
-			productReference = 98CD059D1D89A1CA008AFAE1 /* DisplayIP.appex */;
-			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -185,9 +126,6 @@
 				ORGANIZATIONNAME = "Lorne Flindall";
 				TargetAttributes = {
 					98CD057E1D89A097008AFAE1 = {
-						CreatedOnToolsVersion = 7.3;
-					};
-					98CD059C1D89A1CA008AFAE1 = {
 						CreatedOnToolsVersion = 7.3;
 					};
 				};
@@ -206,7 +144,6 @@
 			projectRoot = "";
 			targets = (
 				98CD057E1D89A097008AFAE1 /* getIP */,
-				98CD059C1D89A1CA008AFAE1 /* DisplayIP */,
 			);
 		};
 /* End PBXProject section */
@@ -223,15 +160,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		98CD059B1D89A1CA008AFAE1 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				98CD05A41D89A1CA008AFAE1 /* MainInterface.storyboard in Resources */,
-				98CD05B21D89B5EB008AFAE1 /* Youi.png in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -245,24 +173,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		98CD05991D89A1CA008AFAE1 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				98CD05B31D89BABB008AFAE1 /* ViewController.m in Sources */,
-				98CD05A11D89A1CA008AFAE1 /* ActionViewController.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		98CD05A71D89A1CA008AFAE1 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 98CD059C1D89A1CA008AFAE1 /* DisplayIP */;
-			targetProxy = 98CD05A61D89A1CA008AFAE1 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		98CD058B1D89A097008AFAE1 /* Main.storyboard */ = {
@@ -279,14 +190,6 @@
 				98CD05911D89A097008AFAE1 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-		98CD05A21D89A1CA008AFAE1 /* MainInterface.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				98CD05A31D89A1CA008AFAE1 /* Base */,
-			);
-			name = MainInterface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -383,7 +286,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				INFOPLIST_FILE = getIP/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Youi.getIP;
+				PRODUCT_BUNDLE_IDENTIFIER = tv.youi.getIP;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -395,30 +298,8 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				INFOPLIST_FILE = getIP/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Youi.getIP;
+				PRODUCT_BUNDLE_IDENTIFIER = tv.youi.getIP;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		98CD05AA1D89A1CA008AFAE1 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = DisplayIP/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Youi.getIP.DisplayIP;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		98CD05AB1D89A1CA008AFAE1 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = DisplayIP/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Youi.getIP.DisplayIP;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
 			};
 			name = Release;
 		};
@@ -439,15 +320,6 @@
 			buildConfigurations = (
 				98CD05971D89A097008AFAE1 /* Debug */,
 				98CD05981D89A097008AFAE1 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		98CD05A91D89A1CA008AFAE1 /* Build configuration list for PBXNativeTarget "DisplayIP" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				98CD05AA1D89A1CA008AFAE1 /* Debug */,
-				98CD05AB1D89A1CA008AFAE1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
