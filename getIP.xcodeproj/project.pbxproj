@@ -13,7 +13,7 @@
 		98CD058A1D89A097008AFAE1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98CD05891D89A097008AFAE1 /* ViewController.m */; };
 		98CD058D1D89A097008AFAE1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98CD058B1D89A097008AFAE1 /* Main.storyboard */; };
 		98CD05921D89A097008AFAE1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98CD05901D89A097008AFAE1 /* LaunchScreen.storyboard */; };
-		98CD05B11D89B5EB008AFAE1 /* Youi.png in Resources */ = {isa = PBXBuildFile; fileRef = 98CD05B01D89B5EB008AFAE1 /* Youi.png */; };
+		E9DF6DFC1DA81620005BC4EC /* Youi.png in Resources */ = {isa = PBXBuildFile; fileRef = E9DF6DFB1DA81620005BC4EC /* Youi.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -40,7 +40,7 @@
 		98CD058C1D89A097008AFAE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		98CD05911D89A097008AFAE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		98CD05931D89A097008AFAE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		98CD05B01D89B5EB008AFAE1 /* Youi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Youi.png; path = ../../../../Downloads/Youi.png; sourceTree = "<group>"; };
+		E9DF6DFB1DA81620005BC4EC /* Youi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Youi.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,7 +89,7 @@
 		98CD05821D89A097008AFAE1 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				98CD05B01D89B5EB008AFAE1 /* Youi.png */,
+				E9DF6DFB1DA81620005BC4EC /* Youi.png */,
 				98CD05831D89A097008AFAE1 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -127,6 +127,7 @@
 				TargetAttributes = {
 					98CD057E1D89A097008AFAE1 = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = W4E9HL2DXS;
 					};
 				};
 			};
@@ -154,7 +155,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				98CD05921D89A097008AFAE1 /* LaunchScreen.storyboard in Resources */,
-				98CD05B11D89B5EB008AFAE1 /* Youi.png in Resources */,
+				E9DF6DFC1DA81620005BC4EC /* Youi.png in Resources */,
 				98CD058D1D89A097008AFAE1 /* Main.storyboard in Resources */,
 				98BFCFC61D89E9ED00421A64 /* Images-3.xcassets in Resources */,
 			);
@@ -284,7 +285,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				DEVELOPMENT_TEAM = W4E9HL2DXS;
 				INFOPLIST_FILE = getIP/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = tv.youi.getIP;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -296,7 +299,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				DEVELOPMENT_TEAM = W4E9HL2DXS;
 				INFOPLIST_FILE = getIP/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = tv.youi.getIP;
 				PRODUCT_NAME = "$(TARGET_NAME)";

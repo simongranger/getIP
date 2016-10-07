@@ -60,7 +60,7 @@
     // Set the text property of the label
     messageLabel.text = address;
     messageLabel.textColor = [UIColor redColor];
-    NSLog(@"IPAddress:%@",address);
+    NSLog(@"IPAddress: %@",address);
     
     
     //  label.text = address;
